@@ -1,0 +1,138 @@
+// @import 'antd/lib/style/themes/default';
+* {
+  outline: none;
+}
+
+:global body,
+:global html {
+  height: 100%;
+}
+:global #root {
+  height: 100%;
+}
+
+/* override */
+:global .ant-menu-inline-collapsed {
+  width: 60px;
+}
+:global .ant-menu-inline-collapsed > .ant-menu-item {
+  padding: 0 22px !important;
+}
+
+:global .ant-btn {
+  overflow: hidden;
+}
+
+:global #user-entry {
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+
+:global .ant-form-explain {
+  height: 0;
+  margin-top: 2px !important;
+  position: absolute;
+}
+
+:global .login .ant-tabs-bar {
+  border-bottom: none;
+  margin-bottom: 24px;
+}
+
+:global .login .ant-checkbox-wrapper {
+  margin-bottom: 28px;
+}
+
+:global .login,
+:global .detail,
+:global .my-form {
+  .ant-form-item {
+    min-height: 40px;
+    margin-bottom: 24px;
+  }
+}
+// :global .ant-upload-list-item-thumbnail {
+//   > img {
+//     display: none !important;
+//   }
+//   &::before {
+//     content: '\e664';
+//     font-family: 'anticon' !important;
+//     font-size: 36px;
+//     display: block;
+//     position: absolute;
+//     width: 100%;
+//     height: 100%;
+//     text-align: center;
+//     line-height: 48px;
+//     color: rgba(0, 0, 0, 0.5);
+//   }
+// }
+
+// @media (max-width: 767px) {
+//   :global .ant-col-sm-24.ant-form-item-label {
+//     padding: 0 !important;
+//   }
+// }
+
+:global .has-error .ant-upload button {
+  border-color: red !important;
+}
+
+// :global .has-warning .ant-upload button {
+//   border-color: #faad14 !important;
+// }
+
+:global .ant-card-head {
+  border: none;
+}
+
+:global .ant-card-body {
+  padding-top: 10px !important;
+}
+
+:global .ant-steps-horizontal {
+  margin-bottom: 20px;
+}
+
+:global .ant-alert {
+  margin-bottom: 16px;
+}
+
+:global .card-no-inner-padding {
+  .ant-card-body {
+    padding: 0;
+  }
+
+  .ant-card-head {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
+:global .ant-form-item-label {
+  padding-bottom: 0 !important;
+}
+
+:global .antd-pro-notice-icon-icon {
+  margin-right: 0 !important;
+}
+
+:global .ant-avatar {
+  border-radius: 0 !important;
+  background-color: transparent !important;
+}
+
+:global .ant-upload.ant-upload-disabled {
+  .ant-btn {
+    cursor: not-allowed !important;
+    background-color: #f5f5f5;
+    &:hover,
+    &:focus {
+      border-color: rgb(217, 217, 217);
+    }
+  }
+}
